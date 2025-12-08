@@ -132,6 +132,9 @@ section {
     box-sizing: content-box;
     height: 8rem;
 }
+.intro-text {
+    white-space: nowrap;
+}
 .roles-container {
     overflow: hidden;
     position: relative;
@@ -143,6 +146,7 @@ section {
     text-align: left;
     padding-left: 6px;
     animation: role-change 6s infinite;
+    text-wrap: nowrap;
 }
 @keyframes role-change {
     10% {
