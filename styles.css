@@ -15,7 +15,13 @@
 html {
     font-size: 60%;
     overflow-x: hidden;
+    cursor: url('./images/cursor.png'), auto;
 }
+
+button:hover, .service-box:hover, .btn:hover, .logo:hover, .social-icons a:hover, a, .project-card:hover, .home-img, .about-img, #menu-icon {
+    cursor: url('./images/left.png'), auto;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
